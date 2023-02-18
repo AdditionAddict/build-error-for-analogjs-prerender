@@ -1,0 +1,1 @@
+import{_ as o,C as a,a as s,d as p,v as c,x as l,w as m}from"./index-55ac2fb7.js";var e=o(function t(){a(this,t)});e.ɵfac=function(n){return new(n||e)};e.ɵcmp=s({type:e,selectors:[["app-test-component"]],standalone:!0,features:[p],decls:2,vars:0,template:function(n,r){n&1&&(c(0,"h1"),l(1,"Test Component Route"),m())},encapsulation:2});export{e as default};
