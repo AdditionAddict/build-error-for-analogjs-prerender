@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
     ssr: true,
     static: true,
     prerender: {
-      routes: ['/']
+      routes: ['/', '/about']
     }
   })],
   test: {
