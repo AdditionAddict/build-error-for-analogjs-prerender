@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
   standalone: true,
   imports: [RouterLink, RouterOutlet],
   template: `
-    <h1>Home</h1>
+    <h1>About</h1>
 
-    <a routerLink="/about">About</a><br>
+    <a routerLink="/">Home</a><br>
 `
 })
-export default class HomeComponent { }
+export default class AboutComponent { }
